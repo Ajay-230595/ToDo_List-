@@ -122,3 +122,34 @@ ul li span:hover{
     text-align: center;
     border-radius: 50px;
 } */
+
+
+
+
+/* ---------------------Media query started--------------------- */
+
+
+@media (max-width: 799px){
+
+}
+
+
+
+/* ---------------------Mobile Phone Media query started--------------------- */
+
+
+@media (max-width: 477px){
+    .row {
+       width: 100%;
+       justify-content: space-evenly;
+       padding-left: 0;
+    }
+    .row input {
+       text-align: center;
+    }
+    .row button {
+        padding: 15px 40px;
+       
+    }
+ 
+}
